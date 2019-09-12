@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Starter Landing Page`,
-    description: `A barebone landing page starter with some minimal styles.`,
-    author: `@gillkyle`,
-    siteUrl: `https://gatsby-starter-landing-page.netlify.com`,
+    title: `Quello che le donne non dicono alla chiesa - Ilaria Beretta`,
+    description: `Sono le donne che tengono in piedi la Chiesa, attraverso le più varie forme di partecipazione e impegno. Ma loro come reagiscono? Quindici donne attive nella Chiesa si confessano in questo libro di Ilaria Beretta`,
+    author: `@manzinello`,
+    siteUrl: `https://quellocheledonne.ilariaberetta.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

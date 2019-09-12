@@ -3,8 +3,7 @@ import PropTypes from "prop-types"
 
 import Button from "../components/button"
 import headerImage from "../images/header.png"
-import MockupContent from "./image"
-import mockupFrame from "../images/mockup-frame.png"
+import quello from "../images/quello-che-le-donne-non-dicono-alla-chiesa.png"
 
 const Header = ({ siteTitle }) => (
   <div
@@ -34,26 +33,9 @@ const Header = ({ siteTitle }) => (
     <p style={{ textAlign: "center", maxWidth: 440, fontSize: 25 }}>
       Ilaria Beretta
     </p>
-    <p style={{ textAlign: "center", maxWidth: 440 }}>
-      Storie vere di una relazione complicata
-    </p>
     <Button>Compra su Amazon</Button>
-    <div style={{ margin: 60, width: `250px`, position: "relative" }}>
-      <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
-        <MockupContent />
-      </div>
-      <div
-        style={{
-          position: "absolute",
-          width: "250px",
-          top: 0,
-        }}
-      >
-        <img
-          src={mockupFrame}
-          alt="outlines of shapes and confetti in the background "
-        />
-      </div>
+    <div style={{ margin: 60, width: `300px`, position: "relative" }}>
+      <img src={quello} />
     </div>
   </div>
 )

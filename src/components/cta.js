@@ -17,10 +17,10 @@ const CallToAction = () => (
       }}
     >
       <div>
-        <p style={{ color: COLORS.gray }}>
+        <p style={{ color: COLORS.gray, fontSize: 17 }}>
           <strong>Ilaria Beretta</strong> 26 anni, è giornalista professionista.
           Collabora con quotidiani e riviste dando spazio soprattutto a buone
-          pratiche ed espe- rienze di solidarietà. Ha fondato il blog
+          pratiche ed esperienze di solidarietà. Ha fondato il blog
           «buonenotizie.co», dove dal 2014 racconta storie positive dall’Italia
           e dall’estero. Nel 2017 ha vinto il Premio De Carli per l’informazione
           religiosa nella categoria «Giovani».
