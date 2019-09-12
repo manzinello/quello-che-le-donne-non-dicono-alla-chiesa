@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import Button from "../components/button"
+import { COLORS, BORDER_RADIUS, GRADIENT } from "../styles/constants"
 import headerImage from "../images/header.png"
 import quello from "../images/quello-che-le-donne-non-dicono-alla-chiesa.png"
 
@@ -33,8 +34,30 @@ const Header = ({ siteTitle }) => (
     <p style={{ textAlign: "center", maxWidth: 440, fontSize: 25 }}>
       Ilaria Beretta
     </p>
-    <Button>Compra su Amazon</Button>
-    <div style={{ margin: 60, width: `300px`, position: "relative" }}>
+    <a
+      href="https://amzn.to/2UOl2DG"
+      target="_blank"
+      style={{
+        padding: ".5rem 2.5rem",
+        color: "white",
+        fontWeight: 700,
+        background: "#AC0D42",
+        borderRadius: BORDER_RADIUS,
+        borderWidth: 0,
+        cursor: "pointer",
+        textDecoration: "none",
+      }}
+    >
+      Compra su Amazon
+    </a>
+    <div
+      style={{
+        marginTop: 60,
+        width: `500px`,
+        maxWidth: "100%",
+        position: "relative",
+      }}
+    >
       <img src={quello} />
     </div>
   </div>

@@ -4,7 +4,7 @@ import { COLORS, BORDER_RADIUS, GRADIENT } from "../styles/constants"
 import "../styles/button.css"
 
 const Button = ({ children }) => (
-  <button
+  <a
     style={{
       padding: ".5rem 2.5rem",
       color: COLORS.lightWhite,
@@ -16,7 +16,7 @@ const Button = ({ children }) => (
     }}
   >
     {children}
-  </button>
+  </a>
 )
 
 export default Button
