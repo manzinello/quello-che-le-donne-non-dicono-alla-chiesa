@@ -26,12 +26,18 @@ const Header = ({ siteTitle }) => (
         opacity: 0.5,
       }}
     />
-    <h1 style={{ textAlign: "center" }}>Landing Page Starter</h1>
-    <p style={{ textAlign: "center", maxWidth: 440 }}>
-      This landing page looks great on all devices and is minimal in design. Add
-      what you want and deploy.
+    <h1 style={{ textAlign: "center", fontSize: 55 }}>
+      Quello che le <span style={{ color: "#AC0D42" }}>donne</span>
+      <br />
+      non dicono alla <span style={{ color: "#7D5320" }}>Chiesa</span>
+    </h1>
+    <p style={{ textAlign: "center", maxWidth: 440, fontSize: 25 }}>
+      Ilaria Beretta
     </p>
-    <Button>Get Early Access</Button>
+    <p style={{ textAlign: "center", maxWidth: 440 }}>
+      Storie vere di una relazione complicata
+    </p>
+    <Button>Compra su Amazon</Button>
     <div style={{ margin: 60, width: `250px`, position: "relative" }}>
       <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
         <MockupContent />

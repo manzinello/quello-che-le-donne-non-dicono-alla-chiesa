@@ -5,6 +5,7 @@ import { COLORS } from "../styles/constants"
 
 const Footer = ({ siteTitle }) => (
   <footer
+    id="footer"
     style={{
       padding: "1rem",
       backgroundColor: COLORS.lightGray,
@@ -15,7 +16,7 @@ const Footer = ({ siteTitle }) => (
         display: "grid",
         alignItems: "center",
         justifyContent: "space-between",
-        gridTemplateColumns: "repeat(auto-fit, minmax(200px, 240px))",
+        gridTemplateColumns: "repeat(auto-fit, minmax(200px, 280px))",
         padding: "1rem 2rem",
         fontSize: ".85rem",
       }}
@@ -23,15 +24,19 @@ const Footer = ({ siteTitle }) => (
       <div style={{ color: COLORS.blue, fontWeight: 700 }}>
         <a
           style={{ textDecoration: "none" }}
-          href="https://github.com/gillkyle/gatsby-starter-landing-page"
+          target="_blank"
+          href="https://www.ancoralibri.it"
         >
-          Contact Us
+          Àncora Editrice
         </a>
       </div>
       <div style={{ color: COLORS.gray }}>
         © {new Date().getFullYear()}
         {` `}
-        {siteTitle}
+        {"Ilaria Beretta, "}
+        <a href="https://ilariaberetta.com" target="_blank">
+          ilariaberetta.com
+        </a>
       </div>
     </div>
   </footer>

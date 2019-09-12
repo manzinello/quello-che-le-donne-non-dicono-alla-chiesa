@@ -445,3 +445,7 @@ li > p {
     font-size: 100%;
   }
 }
+
+#footer a {
+  color: rgb(160, 164, 166) !important;
+}
