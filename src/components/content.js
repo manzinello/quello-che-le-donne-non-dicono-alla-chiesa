@@ -19,21 +19,24 @@ const Content = () => (
       <div>
         <p style={{ color: COLORS.gray }}>
           «La Chiesa non può essere se stessa senza la donna e il suo ruolo. La
-          donna per la Chiesa è imprescindibile». Papa Francesco con queste
-          parole fotografa bene la realtà: sono le donne che tengono in piedi
-          la Chiesa, attraverso le più varie forme di partecipazione e
-          impegno. Un esempio? I catechisti: in Italia l’80 per cento è femmina.
-          Eppure, che siano religiose impegnate in parrocchia, laiche attive
-          negli oratori o docenti negli istituti teologici, nella pratica delle
-          realtà ecclesiali si scontrano quotidianamente con difficoltà,
-          incomprensioni, disparità di trattamento. Ma loro come reagiscono? Che
-          cosa pensano davvero, magari senza dirlo perché nessuno glielo chiede?
-          Quindici donne attive nella Chiesa qui si confessano, qualche volta
-          con critiche anche sferzanti nei confronti di una certa mentalità
-          clericale, in altri casi offrendo idee utili al cambiamento, sempre
-          con l’intento di valorizzare il meglio di una Chiesa alla cui verità e
-          bellezza tutte tengono senza infingimenti né tornaconti. A loro la
-          parola: ascoltiamole.
+          donna per la Chiesa è imprescindibile».{" "}
+          <strong>Papa Francesco</strong> con queste parole fotografa bene la
+          realtà: sono le <strong>donne</strong> che tengono in piedi la{" "}
+          <strong>Chiesa</strong>, attraverso le più varie forme di
+          partecipazione e impegno. Un esempio? I catechisti: in Italia l’
+          <strong>80 per cento</strong> è femmina. Eppure, che siano religiose
+          impegnate in parrocchia, laiche attive negli oratori o docenti negli
+          istituti teologici, nella pratica delle{" "}
+          <strong>realtà ecclesiali</strong> si scontrano quotidianamente con
+          difficoltà, incomprensioni, <strong>disparità di trattamento</strong>.
+          Ma loro come reagiscono? Che cosa pensano davvero, magari senza dirlo
+          perché nessuno glielo chiede? <strong>Quindici donne</strong> attive
+          nella Chiesa qui si confessano, qualche volta con critiche anche
+          sferzanti nei confronti di una certa mentalità clericale, in altri
+          casi offrendo <strong>idee utili</strong> al cambiamento, sempre con
+          l’intento di valorizzare il meglio di una Chiesa alla cui verità e
+          <strong>bellezza</strong> tutte tengono senza infingimenti né
+          tornaconti. A loro la parola: <strong>ascoltiamole</strong>.
         </p>
       </div>
     </content>
