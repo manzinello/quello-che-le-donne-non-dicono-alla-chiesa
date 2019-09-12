@@ -1,9 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Button from "../components/button"
-import { COLORS, BORDER_RADIUS, GRADIENT } from "../styles/constants"
-import headerImage from "../images/header.png"
+import { BORDER_RADIUS } from "../styles/constants"
+import headerImage from "../images/wave-header.svg"
 import quello from "../images/quello-che-le-donne-non-dicono-alla-chiesa.png"
 
 const Header = ({ siteTitle }) => (
@@ -18,12 +17,12 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         backgroundImage: `url(${headerImage})`,
+        backgroundRepeat: "no-repeat",
         position: "absolute",
         top: 0,
         zIndex: -5,
         height: "100vh",
         width: "100vw",
-        opacity: 0.5,
       }}
     />
     <h1 style={{ textAlign: "center", fontSize: 55 }}>
@@ -35,6 +34,7 @@ const Header = ({ siteTitle }) => (
       Ilaria Beretta
     </p>
     <a
+      className="button"
       href="https://amzn.to/2UOl2DG"
       target="_blank"
       style={{
@@ -58,7 +58,7 @@ const Header = ({ siteTitle }) => (
         position: "relative",
       }}
     >
-      <img src={quello} />
+      <img style={{ borderRadius: 10 }} src={quello} />
     </div>
   </div>
 )
