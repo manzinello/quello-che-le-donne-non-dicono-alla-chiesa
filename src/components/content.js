@@ -34,7 +34,7 @@ const Content = () => (
           nella Chiesa qui si confessano, qualche volta con critiche anche
           sferzanti nei confronti di una certa mentalità clericale, in altri
           casi offrendo <strong>idee utili</strong> al cambiamento, sempre con
-          l’intento di valorizzare il meglio di una Chiesa alla cui verità e
+          l’intento di valorizzare il meglio di una Chiesa alla cui verità e{" "}
           <strong>bellezza</strong> tutte tengono senza infingimenti né
           tornaconti. A loro la parola: <strong>ascoltiamole</strong>.
         </p>
