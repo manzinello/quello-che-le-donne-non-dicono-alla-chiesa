@@ -16,7 +16,7 @@ const Content = () => (
         margin: "auto",
       }}
     >
-      <div>
+      <div style={{ paddingLeft: 10, paddingRight: 10 }}>
         <p style={{ color: COLORS.gray }}>
           «La Chiesa non può essere se stessa senza la donna e il suo ruolo. La
           donna per la Chiesa è imprescindibile».{" "}

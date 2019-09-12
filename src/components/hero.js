@@ -58,7 +58,7 @@ const Header = ({ siteTitle }) => (
         position: "relative",
       }}
     >
-      <img style={{ borderRadius: 10 }} src={quello} />
+      <img className="copertina" style={{ borderRadius: 10 }} src={quello} />
     </div>
   </div>
 )

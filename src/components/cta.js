@@ -1,8 +1,5 @@
 import React from "react"
 
-import Button from "../components/button"
-import SectionHeader from "./section-header"
-
 import { COLORS } from "../styles/constants"
 
 const CallToAction = () => (
@@ -16,7 +13,7 @@ const CallToAction = () => (
         margin: "auto",
       }}
     >
-      <div>
+      <div style={{ paddingLeft: 10, paddingRight: 10 }}>
         <p style={{ color: COLORS.gray, fontSize: 17 }}>
           <strong>Ilaria Beretta</strong> 26 anni, è giornalista professionista.
           Collabora con quotidiani e riviste dando spazio soprattutto a buone
