@@ -31,13 +31,14 @@ const Header = ({ siteTitle }) => (
       non dicono alla <span style={{ color: "#7D5320" }}>Chiesa</span>
     </h1>
     <p style={{ textAlign: "center", maxWidth: 440, fontSize: 25 }}>
-      Ilaria Beretta
+      di <strong>Ilaria Beretta</strong>
     </p>
     <a
       className="button"
       href="https://amzn.to/2UOl2DG"
       target="_blank"
       style={{
+        margin: 5,
         padding: ".5rem 2.5rem",
         color: "white",
         fontWeight: 700,
@@ -49,6 +50,24 @@ const Header = ({ siteTitle }) => (
       }}
     >
       Compra su Amazon
+    </a>
+    <a
+      className="button"
+      href="https://books.google.it/books?id=r2KmDwAAQBAJ&lpg=PP1&ots=zRXvTCQqe5&dq=quello%20che%20le%20donne%20non%20dicono%20alla%20chiesa&hl=it&pg=PP1#v=onepage&q=quello%20che%20le%20donne%20non%20dicono%20alla%20chiesa&f=false"
+      target="_blank"
+      style={{
+        margin: 5,
+        padding: ".5rem 2.5rem",
+        color: "white",
+        fontWeight: 700,
+        background: "#AC0D42",
+        borderRadius: BORDER_RADIUS,
+        borderWidth: 0,
+        cursor: "pointer",
+        textDecoration: "none",
+      }}
+    >
+      Leggi su Google Libri
     </a>
     <div
       style={{
