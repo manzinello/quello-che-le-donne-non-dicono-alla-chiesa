@@ -9,6 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
+import background from "../images/quello-che-le-donne-non-dicono-alla-chiesa-background.jpg"
+
 import Footer from "./footer"
 import "../styles/style.css"
 
@@ -30,7 +32,23 @@ const Layout = ({ children }) => (
             padding: "0 1rem",
           }}
         >
-          <main>{children}</main>
+          <main>
+            <div
+              style={{
+                position: "absolute",
+                zIndex: 1,
+                opacity: 0.15,
+                top: 0,
+                bottom: 0,
+                left: 0,
+                right: 0,
+                backgroundImage: "url(" + background + ")",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+            ></div>
+            {children}
+          </main>
         </div>
         <Footer siteTitle={data.site.siteMetadata.title} />
       </>
