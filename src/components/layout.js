@@ -37,7 +37,7 @@ const Layout = ({ children }) => (
               style={{
                 position: "fixed",
                 zIndex: -1,
-                opacity: 0.08,
+                opacity: 0.05,
                 top: 0,
                 bottom: 0,
                 left: 0,

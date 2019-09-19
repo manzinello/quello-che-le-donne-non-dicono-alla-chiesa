@@ -1,6 +1,6 @@
 import React from "react"
 
-import book from "../images/undraw_book_lover_mkck.png"
+import book from "../images/undraw_Bibliophile_hwqc.svg"
 import SectionHeader from "./section-header"
 import { COLORS } from "../styles/constants"
 
@@ -49,7 +49,11 @@ const Content = () => (
       }}
     >
       <div>
-        <img src={book} alt="a blank card floating over colorful graphics" />
+        <img
+          src={book}
+          style={{ width: "80%" }}
+          alt="Quello che le donne non dicono alla chiesa"
+        />
       </div>
     </content>
   </div>

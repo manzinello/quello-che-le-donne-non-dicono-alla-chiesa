@@ -8,7 +8,6 @@ const Footer = ({ siteTitle }) => (
     id="footer"
     style={{
       padding: "1rem",
-      backgroundColor: COLORS.lightGray,
     }}
   >
     <div
