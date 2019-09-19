@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
   >
     <div
       style={{
-        backgroundImage: `url(${headerImage})`,
+        // backgroundImage: `url(${headerImage})`,
         backgroundRepeat: "no-repeat",
         position: "absolute",
         top: 0,

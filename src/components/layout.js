@@ -35,9 +35,9 @@ const Layout = ({ children }) => (
           <main>
             <div
               style={{
-                position: "absolute",
-                zIndex: 1,
-                opacity: 0.15,
+                position: "fixed",
+                zIndex: -1,
+                opacity: 0.08,
                 top: 0,
                 bottom: 0,
                 left: 0,
