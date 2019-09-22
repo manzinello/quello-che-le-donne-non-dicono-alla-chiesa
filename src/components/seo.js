@@ -79,7 +79,12 @@ function SEO({ description, lang, meta, keywords, title }) {
             : []
         )
         .concat(meta)}
-    />
+    >
+      <link
+        href="https://fonts.googleapis.com/css?family=Cabin:400,700|Open+Sans&display=swap"
+        rel="stylesheet"
+      />
+    </Helmet>
   )
 }
 
