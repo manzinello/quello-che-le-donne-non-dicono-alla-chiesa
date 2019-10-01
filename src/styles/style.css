@@ -466,10 +466,48 @@ li > p {
 
 .button,
 .copertina {
+  font-size:16px;
   box-shadow: 0px 5px 20px -2px rgba(172, 13, 66, 0.25);
   transition: all 0.5s ease-in-out;
 }
 .button:hover,
 .copertina:hover {
   box-shadow: 0px 5px 20px -2px rgba(172, 13, 66, 0.75);
+}
+
+.ancora-libri {
+  color: #1d4f8e !important;
+  background: white;
+  border: 2px solid #1d4f8e !important;
+  box-shadow: 0px 5px 20px -2px rgba(29, 79, 142, 0.25);
+}
+.ancora-libri:hover {
+  background: #1d4f8e !important;
+  color: white !important;
+  box-shadow: 0px 5px 20px -2px rgba(29, 79, 142, 0.75);
+}
+
+.ibs {
+  color: #00576d !important;
+  background: white;
+  border: 2px solid #00576d !important;
+  box-shadow: 0px 5px 20px -2px rgba(0, 87, 109, 0.25);
+}
+.ibs:hover {
+  background: #00576d !important;
+  color: white !important;
+  box-shadow: 0px 5px 20px -2px rgba(0, 87, 109, 0.75);
+}
+
+.amazon {
+  color: #ff8f00 !important;
+  background: white;
+  border: 2px solid #ff8f00 !important;
+  box-shadow: 0px 5px 20px -2px rgba(255, 143, 0, 0.25);
+}
+
+.amazon:hover {
+  background: #ff8f00 !important;
+  color: white !important;
+  box-shadow: 0px 5px 20px -2px rgba(255, 143, 0, 0.75);
 }

@@ -37,43 +37,56 @@ const Header = ({ siteTitle }) => (
       In libreria dal 1 ottobre!
     </strong>
     <br />
-    {false && (
-      <a
-        className="button"
-        href="https://amzn.to/2UOl2DG"
-        target="_blank"
-        style={{
-          margin: 5,
-          padding: ".5rem 2.5rem",
-          color: "white",
-          fontWeight: 700,
-          background: "#AC0D42",
-          borderRadius: BORDER_RADIUS,
-          borderWidth: 0,
-          cursor: "pointer",
-          textDecoration: "none",
-        }}
-      >
-        Compra su Amazon
-      </a>
-    )}
     <a
-      className="button"
-      href="https://books.google.it/books?id=r2KmDwAAQBAJ&lpg=PP1&ots=zRXvTCQqe5&dq=quello%20che%20le%20donne%20non%20dicono%20alla%20chiesa&hl=it&pg=PP1#v=onepage&q=quello%20che%20le%20donne%20non%20dicono%20alla%20chiesa&f=false"
+      className="button ancora-libri"
+      href="https://www.ancoralibri.it/index.php?route=product/product&product_id=8477"
       target="_blank"
       style={{
         margin: 5,
         padding: ".5rem 2.5rem",
         color: "white",
         fontWeight: 700,
-        background: "#AC0D42",
         borderRadius: BORDER_RADIUS,
         borderWidth: 0,
         cursor: "pointer",
         textDecoration: "none",
       }}
     >
-      Leggi su Google Libri
+      Acquista su Àncora Editrice
+    </a>
+    <a
+      className="button amazon"
+      href="https://amzn.to/2oR2qao"
+      target="_blank"
+      style={{
+        margin: 5,
+        padding: ".5rem 2.5rem",
+        color: "white",
+        fontWeight: 700,
+        borderRadius: BORDER_RADIUS,
+        borderWidth: 0,
+        cursor: "pointer",
+        textDecoration: "none",
+      }}
+    >
+      Acquista su Amazon
+    </a>
+    <a
+      className="button ibs"
+      href="https://www.ibs.it/quello-che-donne-non-dicono-libro-ilaria-beretta/e/9788851421830"
+      target="_blank"
+      style={{
+        margin: 5,
+        padding: ".5rem 2.5rem",
+        color: "white",
+        fontWeight: 700,
+        borderRadius: BORDER_RADIUS,
+        borderWidth: 0,
+        cursor: "pointer",
+        textDecoration: "none",
+      }}
+    >
+      Acquista su IBS
     </a>
     <div
       style={{
