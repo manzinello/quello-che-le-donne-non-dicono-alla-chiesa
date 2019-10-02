@@ -34,7 +34,6 @@ function SEO({ description, lang, meta, keywords, title }) {
       htmlAttributes={{
         lang,
       }}
-      link={[{ rel: "shortcut icon", type: "image/png", href: `${favicon}` }]}
       title={"Quello che le donne non dicono alla chiesa - Ilaria Beretta"}
       meta={[
         {
@@ -84,6 +83,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         href="https://fonts.googleapis.com/css?family=Cabin:400,700|Open+Sans&display=swap"
         rel="stylesheet"
       />
+      <link href={favicon} rel="shortcut icon" type="image/png" />
     </Helmet>
   )
 }
