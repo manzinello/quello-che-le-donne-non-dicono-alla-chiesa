@@ -18,6 +18,17 @@ let rassegna = [
     content:
       "'Quello che le donne non dicono alla chiesa', ascolta l'intervista all'autrice del libro a Radio Lombardia",
   },
+  {
+    link: "http://www.vinonuovo.it/index.php?l=it&art=3495",
+    title: "Vino Nuovo",
+    content: "Cara Chiesa, dobbiamo parlare",
+  },
+  {
+    link:
+      "https://bibbiagiovane.it/la-rivoluzione-tranquilla-delle-donne-cristiane-comuni/",
+    title: "La Bibbia giovane",
+    content: "La rivoluzione tranquilla delle donne cristiane comuni",
+  },
 ]
 
 const Card = props => (
@@ -28,8 +39,10 @@ const Card = props => (
       rel="noopener noreferrer"
       className={"full-link"}
     />
-    <h4>{props.title}</h4>
-    <p style={{ fontSize: 15 }}>{props.content}</p>
+    <h4 style={{ marginBottom: 8 }}>{props.title}</h4>
+    <p style={{ fontSize: 15, marginBottom: 0, lineHeight: "1.2em" }}>
+      {props.content}
+    </p>
   </div>
 )
 
