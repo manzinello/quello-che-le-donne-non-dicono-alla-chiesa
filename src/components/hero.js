@@ -33,9 +33,11 @@ const Header = ({ siteTitle }) => (
     <p style={{ textAlign: "center", maxWidth: 440, fontSize: 25 }}>
       di <strong>Ilaria Beretta</strong>
     </p>
-    <strong style={{ fontSize: 22, color: "#AC0D42", textAlign: "center" }}>
-      In libreria dal 1 ottobre!
-    </strong>
+    {false && (
+      <strong style={{ fontSize: 22, color: "#AC0D42", textAlign: "center" }}>
+        In libreria dal 1 ottobre!
+      </strong>
+    )}
     <br />
     <a
       className="button ancora-libri"

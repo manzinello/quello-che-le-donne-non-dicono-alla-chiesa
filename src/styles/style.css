@@ -466,7 +466,7 @@ li > p {
 
 .button,
 .copertina {
-  font-size:16px;
+  font-size: 16px;
   box-shadow: 0px 5px 20px -2px rgba(172, 13, 66, 0.25);
   transition: all 0.5s ease-in-out;
 }
@@ -510,4 +510,29 @@ li > p {
   background: #ff8f00 !important;
   color: white !important;
   box-shadow: 0px 5px 20px -2px rgba(255, 143, 0, 0.75);
+}
+
+.rassegna-card {
+  padding: 20px;
+  padding-top: 30px;
+  background: white;
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+  margin: 20px;
+  border-radius: 8px;
+  transition: 0.5s box-shadow;
+  box-shadow: 0px 5px 20px -2px rgba(172, 13, 66, 0.25);
+}
+
+.rassegna-card .full-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.rassegna-card:hover {
+  box-shadow: 0px 5px 20px -2px rgba(172, 13, 66, 0.75);
 }
