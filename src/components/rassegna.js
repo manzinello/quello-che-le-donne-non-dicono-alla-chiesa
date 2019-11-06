@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
-import SectionHeader from "./section-header"
-import { COLORS } from "../styles/constants"
+import SectionHeader from "./section-header";
+import { COLORS } from "../styles/constants";
 
 let rassegna = [
   {
@@ -9,27 +9,33 @@ let rassegna = [
       "https://www.letture.org/quello-che-le-donne-non-dicono-alla-chiesa-storie-vere-di-una-relazione-complicata-ilaria-beretta/",
     title: "Letture.org",
     content:
-      "'Quello che le donne non dicono alla chiesa, storie vere di una relazione complicata' di Ilaria Beretta, con intervista all'autrice del libro",
+      "'Quello che le donne non dicono alla chiesa, storie vere di una relazione complicata' di Ilaria Beretta, con intervista all'autrice del libro"
   },
   {
     link:
       "https://www.radiolombardia.it/2019/10/15/quello-che-le-donne-non-dicono-alla-chiesa/",
     title: "Radio Lombardia",
     content:
-      "'Quello che le donne non dicono alla chiesa', ascolta l'intervista all'autrice del libro a Radio Lombardia",
+      "'Quello che le donne non dicono alla chiesa', ascolta l'intervista all'autrice del libro a Radio Lombardia"
   },
   {
     link: "http://www.vinonuovo.it/index.php?l=it&art=3495",
     title: "Vino Nuovo",
-    content: "Cara Chiesa, dobbiamo parlare",
+    content: "Cara Chiesa, dobbiamo parlare"
   },
   {
     link:
       "https://bibbiagiovane.it/la-rivoluzione-tranquilla-delle-donne-cristiane-comuni/",
     title: "La Bibbia giovane",
-    content: "La rivoluzione tranquilla delle donne cristiane comuni",
+    content: "La rivoluzione tranquilla delle donne cristiane comuni"
   },
-]
+  {
+    link:
+      "https://magnificatnet.it/recensione-quello-che-le-donne-non-dicono-alla-chiesa-di-ilaria-beretta/",
+    title: "Magnificat - Blog di donne della Chiesa ambrosiana",
+    content: "RECENSIONE: 'Quello che le donne non dicono alla Chiesa'"
+  }
+];
 
 const Card = props => (
   <div className={"rassegna-card"}>
@@ -44,7 +50,7 @@ const Card = props => (
       {props.content}
     </p>
   </div>
-)
+);
 
 const Rassegna = () => (
   <div style={{ padding: "0.2rem 1rem", textAlign: "center" }}>
@@ -55,7 +61,7 @@ const Rassegna = () => (
         alignItems: "center",
         justifyContent: "center",
         maxWidth: 700,
-        margin: "auto",
+        margin: "auto"
       }}
     >
       <div
@@ -66,13 +72,13 @@ const Rassegna = () => (
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          maxWidth: 700,
+          maxWidth: 700
         }}
       >
         {rassegna.map(Card)}
       </div>
     </content>
   </div>
-)
+);
 
-export default Rassegna
+export default Rassegna;
