@@ -3,6 +3,8 @@ import React from "react";
 import SectionHeader from "./section-header";
 import { COLORS } from "../styles/constants";
 
+import dossierCatechista from "../rassegna/dossier-catechista.pdf";
+
 let rassegna = [
   {
     link:
@@ -34,6 +36,11 @@ let rassegna = [
       "https://magnificatnet.it/recensione-quello-che-le-donne-non-dicono-alla-chiesa-di-ilaria-beretta/",
     title: "Magnificat - Blog di donne della Chiesa ambrosiana",
     content: "RECENSIONE: 'Quello che le donne non dicono alla Chiesa'"
+  },
+  {
+    link: dossierCatechista,
+    title: "Dossier Catechista",
+    content: "Recensione su Dossier Catechista (PDF)"
   }
 ];
 
