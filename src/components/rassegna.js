@@ -41,21 +41,45 @@ let rassegna = [
     link: dossierCatechista,
     title: "Dossier Catechista",
     content: "Recensione su Dossier Catechista (PDF)"
+  },
+  {
+    youtube: true,
+    title:
+      "Quello che le donne non dicono alla Chiesa - TAVOLA ROTONDA 27 novembre 2019"
   }
 ];
 
 const Card = props => (
-  <div className={"rassegna-card"}>
-    <a
-      href={props.link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={"full-link"}
-    />
+  <div
+    className={"rassegna-card"}
+    style={{ paddingBottom: props.youtube ? 0 : {} }}
+  >
+    {!props.youtube && (
+      <a
+        href={props.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={"full-link"}
+      />
+    )}
     <h4 style={{ marginBottom: 8 }}>{props.title}</h4>
-    <p style={{ fontSize: 15, marginBottom: 0, lineHeight: "1.2em" }}>
-      {props.content}
-    </p>
+    {props.youtube ? (
+      <>
+        <iframe
+          width="100%"
+          height="315"
+          src="https://www.youtube.com/embed/oET_mhH4-Oo"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style={{ borderRadius: 8 }}
+        ></iframe>
+      </>
+    ) : (
+      <p style={{ fontSize: 15, marginBottom: 0, lineHeight: "1.2em" }}>
+        {props.content}
+      </p>
+    )}
   </div>
 );
 
