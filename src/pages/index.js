@@ -1,11 +1,12 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Hero from "../components/hero"
-import Content from "../components/content"
-import Rassegna from "../components/rassegna"
-import CallToAction from "../components/cta"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import Hero from "../components/hero";
+import Content from "../components/content";
+import Presentazioni from "../components/presentazioni";
+import Rassegna from "../components/rassegna";
+import CallToAction from "../components/cta";
 
 const IndexPage = () => (
   <Layout>
@@ -13,8 +14,9 @@ const IndexPage = () => (
     <Hero />
     <Content />
     <CallToAction />
+    <Presentazioni />
     <Rassegna />
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
