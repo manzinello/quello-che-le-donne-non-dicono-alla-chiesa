@@ -1,7 +1,6 @@
 import React from "react";
 
 import SectionHeader from "./section-header";
-import { COLORS } from "../styles/constants";
 
 import trento from "../images/quellocheledonne_trento.jpg";
 import trentoPDF from "../assets/quellocheledonne_trento.pdf";
@@ -18,35 +17,37 @@ const Card = props => (
   </div>
 );
 
-const Rassegna = () => (
+const Presentazioni = () => (
   <div
     style={{ padding: "0.2rem 1rem", marginBottom: 30, textAlign: "center" }}
   >
-    <SectionHeader title="Presentazioni" />
-    <content
-      style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        maxWidth: 700,
-        margin: "auto"
-      }}
-    >
-      <div
+    <SectionHeader title="Prossimamente" />
+    {false && (
+      <content
         style={{
-          paddingLeft: 10,
-          paddingRight: 10,
           display: "flex",
-          flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          maxWidth: 700
+          maxWidth: 700,
+          margin: "auto"
         }}
       >
-        <Card />
-      </div>
-    </content>
+        <div
+          style={{
+            paddingLeft: 10,
+            paddingRight: 10,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            maxWidth: 700
+          }}
+        >
+          <Card />
+        </div>
+      </content>
+    )}
   </div>
 );
 
-export default Rassegna;
+export default Presentazioni;

@@ -1,9 +1,11 @@
 import React from "react";
 
 import SectionHeader from "./section-header";
-import { COLORS } from "../styles/constants";
 
 import dossierCatechista from "../rassegna/dossier-catechista.pdf";
+
+import vitaTrentina from "../rassegna/vita-trentina.pdf";
+import vitaTrentina2 from "../rassegna/vita-trentina-2.pdf";
 
 let rassegna = [
   {
@@ -38,14 +40,25 @@ let rassegna = [
     content: "RECENSIONE: 'Quello che le donne non dicono alla Chiesa'"
   },
   {
-    link: dossierCatechista,
-    title: "Dossier Catechista",
-    content: "Recensione su Dossier Catechista (PDF)"
-  },
-  {
     youtube: true,
     title:
       "Quello che le donne non dicono alla Chiesa - TAVOLA ROTONDA 27 novembre 2019"
+  },
+  {
+    link: dossierCatechista,
+    title: "Dossier Catechista",
+    content: "Recensione su Dossier Catechista"
+  },
+  {
+    link: vitaTrentina,
+    title: "Vita Trentina",
+    content: "Il non detto delle donne (12 gennaio 2020)"
+  },
+  ,
+  {
+    link: vitaTrentina2,
+    title: "Vita Trentina",
+    content: "Le donne non si sentono trattate da adulte (26 gennaio 2020)"
   }
 ];
 
