@@ -1,9 +1,9 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from "react";
+import PropTypes from "prop-types";
 
-import { BORDER_RADIUS } from "../styles/constants"
-import headerImage from "../images/wave-header.svg"
-import quello from "../images/quello-che-le-donne-non-dicono-alla-chiesa.png"
+import { BORDER_RADIUS } from "../styles/constants";
+import headerImage from "../images/wave-header.svg";
+import quello from "../images/quello-che-le-donne-non-dicono-alla-chiesa.png";
 
 const Header = ({ siteTitle }) => (
   <div
@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => (
     <br />
     <a
       className="button ancora-libri"
-      href="https://www.ancoralibri.it/index.php?route=product/product&product_id=8477"
+      href="https://www.ancoralibri.it/scheda-libro/ilaria-beretta/quello-che-le-donne-non-dicono-alla-chiesa-9788851421830-1992.html"
       target="_blank"
       style={{
         margin: 5,
@@ -104,14 +104,14 @@ const Header = ({ siteTitle }) => (
       <img className="copertina" style={{ borderRadius: 10 }} src={quello} />
     </div>
   </div>
-)
+);
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;
